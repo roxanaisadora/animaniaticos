@@ -2,4 +2,13 @@
 
 This project consists of layout the main menu for a related page for animes.
 
-![sting to day](https://s7.gifyu.com/images/wiev_anime.gif?fbclid=IwAR2a8czoAbjdEMmSCAzwCxfMZtvz1_43SIdOoy0QJG2b7pxYR8c4uz6jmsI)
+view 
+
+![image](https://user-images.githubusercontent.com/58452664/90177165-c38b0e00-dd6f-11ea-974a-6b7c06419432.png)
+
+flex-box
+
+![image](https://user-images.githubusercontent.com/58452664/90177231-dd2c5580-dd6f-11ea-9468-b524854f882b.png)
+
+
+![image](https://user-images.githubusercontent.com/58452664/90177268-ecab9e80-dd6f-11ea-9525-30cd916b6418.png)
