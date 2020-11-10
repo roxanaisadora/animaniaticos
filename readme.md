@@ -2,6 +2,10 @@
 
 This project consists of layout the main menu for a page for animes.
 
+## Demo
+
+https://roxanaisadora.github.io/animaniaticos/
+
 ## View 
 
 ![image](https://user-images.githubusercontent.com/58452664/90177165-c38b0e00-dd6f-11ea-974a-6b7c06419432.png)
