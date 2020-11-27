@@ -1,0 +1,21 @@
+.carousel {
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding: 30px 30px 10px 30px;
+    position: relative;
+}
+.carousel__conteiner {
+    white-space: nowrap;
+    margin: 50px 40px 20px 32px;
+    padding-bottom: 10px;
+}
+.carousel__conteiner:hover .carousel-item {
+    opacity: 0.3;
+}
+  
+.carousel__conteiner:hover .carousel-item:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+  
