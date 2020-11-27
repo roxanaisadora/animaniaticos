@@ -26,7 +26,7 @@ https://roxanaisadora.github.io/animaniaticos/
 # inicializar el proyecto en node.js
 
 npm init -y
-npm install --save react react-dom
+npm install --save-dev react react-dom
 
 # Babel
 
