@@ -36,7 +36,7 @@ npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-l
 # Webpack
 
 Instalación de Webpack: 
-npm install webpack webpack-cli html-webpack-plugin html-loader  --save-dev
+npm install webpack webpack-cli html-webpack-plugin html-loader file-loader --save-dev
 
 # Webpack Dev Server
 
