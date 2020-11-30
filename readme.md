@@ -55,6 +55,11 @@ npm install --save-dev eslint babel-eslint eslint-config-airbnb eslint-plugin-im
 
 # JSON Server:
 Instalation of json server:
-sudo npm install json-server -g 
+sudo npm install json-server -g
+json-server archivoParaTuAPI.json 
 or
 npx json-server --watch initialState.json
+
+# PropTypes:
+Instalation of prop-types:
+npm install --save prop-types

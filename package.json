@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/roxanaisadora/flexbox_anime#readme",
   "dependencies": {
-    "json-server": "^0.16.3"
+    "json-server": "^0.16.3",
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
