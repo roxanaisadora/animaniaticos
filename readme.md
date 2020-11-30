@@ -65,3 +65,6 @@ npx json-server --watch initialState.json
 ### PropTypes:
 Instalation of prop-types:
 npm install --save prop-typesd
+
+### router-redux
+npm install react-router-dom --save

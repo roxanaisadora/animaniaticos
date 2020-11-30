@@ -9,7 +9,7 @@ import useInitiaState from '../hooks/useInitialState'
 import '../assets/styles/App.scss'
 
 const API = 'http://localhost:3000/initalState'
-const App = () => {
+const Home = () => {
     const initiaState = useInitiaState(API);
     return initiaState.length === 0 ? <h1>Loading...</h1> : (
         <div className = "App"> 
@@ -47,4 +47,4 @@ const App = () => {
     )
 }
 
-export default App
+export default Home
