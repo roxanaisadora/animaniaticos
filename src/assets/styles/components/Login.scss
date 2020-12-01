@@ -1,0 +1,125 @@
+.login {
+    background-color: #000106;
+    background-image: linear-gradient(45deg, #000106 0%, #138b86 55%, #1c119c 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    /*vh medida relativa*/
+    min-height: calc(100vh - 200px);
+}
+  
+.login_container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 40px 40px;
+    min-height: 700px;
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-shadow: 1px 2px 8px #00020c;
+}
+
+.login_container h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.login__conteiner--form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.login__conteiner--form label {
+    font-size: 14px;
+}
+  
+.login__conteiner--remember-me {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+  
+.login__conteiner--remember-me a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+  
+.login__conteiner--remember-me a:hover {
+    text-decoration: underline;
+}
+  
+.login__conteiner--social-media div {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+  
+.login__conteiner--social-media > div > img {
+    width: 30px;
+    margin-right: 10px;
+}
+  
+.login__conteiner--register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+  
+.login__conteiner--register a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    /*para hacer negrita*/
+    font-weight: bold;
+    padding-left: 5px;
+}
+  
+.login__conteiner--register a:hover {
+    text-decoration: underline;
+}
+  
+.login__input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    font-family: "Lora", serif;
+    padding: 0px;
+    outline: none;
+    height: 50px;
+    text-shadow: 1px 2px 8px black;
+    margin-bottom: 20px;
+    min-width: 100%;
+}
+  
+::placeholder {
+    color: white;
+}
+  
+.button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Lora", serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    text-shadow: 1px 1px 8px black;
+}
+  
