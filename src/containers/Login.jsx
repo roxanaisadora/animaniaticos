@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../assets/styles/components/Login.scss';
 
 const Login = () => (
@@ -22,7 +23,11 @@ const Login = () => (
                 <div><img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="google" />Iniciar sección con Google</div>
                 <div><img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="twetter"/>Iniciar sección con Twetter</div>
             </section>
-            <p className="login__conteiner--register">Si no tienes una cuenta  <a href=""> Registrate</a></p>
+            <p className="login__conteiner--register">Si no tienes una cuenta  
+                <Link to="/register" className = "login__conteiner--registerlink">
+                    Registrate
+                </Link>
+            </p>
         </section>
     </section>
 )
