@@ -12,8 +12,7 @@ const API = 'http://localhost:3000/initalState'
 const Home = () => {
     const initiaState = useInitiaState(API);
     return initiaState.length === 0 ? <h1>Loading...</h1> : (
-        <div className = "App"> 
-            <Header/>
+        <> 
             <Search/>
             {initiaState.mylist.length >0 && 
             <Categories title = "Mi lista">
@@ -40,10 +39,7 @@ const Home = () => {
                     )}
                 </Carousel>
             </Categories>
-            
-
-            <Footer/>
-        </div>
+        </>
     )
 }
 
