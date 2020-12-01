@@ -8,7 +8,7 @@ const Login = () => (
             <form className ="login__conteiner--form">
                 <input aria-label="correo" className="login__input" type="text" placeholder="Correo Electronico"/>
                 <input aria-label="contraseña" className="login__input" type="password" placeholder="contraseña"/>
-                <button className="button">Iniciar sección</button>
+                <button className="login__button">Iniciar sección</button>
                 <div className="login__conteiner--remember-me">
                     <label>
                         <input type="checkbox" name="" id ="cbox1" value="checkbox"/>Recuerdamé

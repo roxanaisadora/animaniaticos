@@ -1,11 +1,9 @@
 .login {
-    background-color: #000106;
-    background-image: linear-gradient(45deg, #000106 0%, #138b86 55%, #1c119c 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0px 30px;
+    padding: 20px 30px;
     /*vh medida relativa*/
     min-height: calc(100vh - 200px);
 }
@@ -108,7 +106,7 @@
     color: white;
 }
   
-.button {
+.login__button {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 25px;
     border: none;
