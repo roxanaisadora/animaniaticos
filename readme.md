@@ -67,4 +67,7 @@ Instalation of prop-types:
 npm install --save prop-typesd
 
 ### router-redux
-npm install react-router-dom --save
+npm install react-router-dom --save-dev
+
+### Redux
+npm install redux react-redux --save-dev
