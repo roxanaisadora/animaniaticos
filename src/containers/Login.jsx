@@ -1,24 +1,24 @@
 import React, {useState} from 'react';
+import { connect } from 'react-redux';
+import { loginRequest } from '../actions'
 import {Link} from 'react-router-dom';
 import '../assets/styles/components/Login.scss';
 
-const Login = () => {
+const Login = props => {
     const [form, setValues] = useState({
         email:'',
     })
-
     const handleInput = event => {
         setValues({
             ...form,
             [event.target.name]:event.target.value
         })
     }
-
     const handleSubmit = event => {
         event.preventDefault();
-        console.log(form)
+        props.loginRequest(form);
+        props.history.push('/');
     }
-
     return (
         <section className="login">
             <section className="login_container">
@@ -59,7 +59,10 @@ const Login = () => {
                 </p>
             </section>
         </section>
-    )
-}
+    );
+};
+const mapStateToProps =  {
+    loginRequest,
+};
+export default connect(null,mapStateToProps)(Login)
 
-export default Login
