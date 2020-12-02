@@ -25,9 +25,10 @@ https://roxanaisadora.github.io/animaniaticos/
 * React
 
 ## Uses
-### inicializar el proyecto en node.js
-
+### Set up
 npm init -y
+
+### React
 npm install --save-dev react react-dom
 
 ### Babel
@@ -71,3 +72,6 @@ npm install react-router-dom --save-dev
 
 ### Redux
 npm install redux react-redux --save-dev
+
+### Gravatar
+npm install md5 --save-dev
