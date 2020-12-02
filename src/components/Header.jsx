@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import { Link } from 'react-router-dom';
 import gravatar from '../utils/gravatar'
@@ -47,6 +48,10 @@ const Header = props => {
     );
 }
 
+Header.propTypes = {
+    user: PropTypes.object
+  }
+
 const mapStateToProps = state => {
     return {
         user: state.user
@@ -55,6 +60,5 @@ const mapStateToProps = state => {
 const mapDispatchToProps = {
     logoutRequest,
 }
-
 
 export default connect(mapStateToProps,mapDispatchToProps)(Header);
