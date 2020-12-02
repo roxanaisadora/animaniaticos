@@ -17,3 +17,10 @@ export const loginRequest = payload => (
         payload,
     }
 );
+
+export const logoutRequest = payload => (
+    {
+        type:'LOGOUT_REQUEST',
+        payload,
+    }
+);
