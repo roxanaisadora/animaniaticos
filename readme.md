@@ -75,3 +75,7 @@ npm install redux react-redux --save-dev
 
 ### Gravatar
 npm install md5 --save-dev
+
+### ClassName
+
+npm install classnames --save-dev
